@@ -127,12 +127,15 @@ export default function Hero() {
               <div className="absolute inset-0 rounded-full border-4 border-soft-yellow animate-pulse" />
               {!imageError ? (
                 <img
-                  src="/SurabhiProfilePhoto.jpg"
+                  src={`${import.meta.env.BASE_URL}SurabhiProfilePhoto.jpg`}
                   alt="Surabhi Bishwas"
                   className={`relative w-48 h-48 sm:w-56 sm:h-56 lg:w-64 lg:h-64 rounded-full object-cover border-4 border-white shadow-2xl z-10 ${
                     imageLoaded ? 'opacity-100' : 'opacity-0'
                   } transition-opacity duration-300`}
-                  onError={() => setImageError(true)}
+                  onError={() => {
+                    console.error('Image failed to load')
+                    setImageError(true)
+                  }}
                   onLoad={() => {
                     setImageLoaded(true)
                     setImageError(false)
