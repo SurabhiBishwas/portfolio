@@ -6,8 +6,8 @@ import { Mail, Linkedin, Github, Phone } from 'lucide-react'
 const contactInfo = [
   {
     label: 'Email',
-    value: 'surabhi.bishwas@example.com',
-    href: 'mailto:surabhi.bishwas@example.com',
+    value: 'bishwassurabhi0@gmail.com',
+    href: 'mailto:bishwassurabhi0@gmail.com',
     icon: Mail,
     color: 'from-vibrant-green to-green-light',
   },
@@ -20,15 +20,15 @@ const contactInfo = [
   },
   {
     label: 'LinkedIn',
-    value: 'linkedin.com/in/surabhi-bishwas',
-    href: 'https://linkedin.com/in/surabhi-bishwas',
+    value: 'linkedin.com/in/surabhibishwas/',
+    href: 'https://www.linkedin.com/in/surabhibishwas/',
     icon: Linkedin,
     color: 'from-vibrant-green to-green-light',
   },
   {
     label: 'GitHub',
-    value: 'github.com/surabhi-bishwas',
-    href: 'https://github.com/surabhi-bishwas',
+    value: 'github.com/SurabhiBishwas',
+    href: 'https://github.com/SurabhiBishwas',
     icon: Github,
     color: 'from-soft-yellow to-yellow-light',
   },
